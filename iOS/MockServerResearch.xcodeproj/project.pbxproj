@@ -15,6 +15,7 @@
 		0E5910DF1EBF3804004CF9C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E5910DD1EBF3804004CF9C5 /* LaunchScreen.storyboard */; };
 		0E9CF5EA1EC6D9EE00DAA42B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E9CF5E81EC6D9EE00DAA42B /* Alamofire.framework */; };
 		0E9CF5EB1EC6D9EE00DAA42B /* Pods_MockServerResearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E9CF5E91EC6D9EE00DAA42B /* Pods_MockServerResearch.framework */; };
+		0E9CF5ED1EC709D000DAA42B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9CF5EC1EC709D000DAA42B /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,7 @@
 		0E5910E01EBF3804004CF9C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E9CF5E81EC6D9EE00DAA42B /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../../Library/Developer/Xcode/DerivedData/MockServerResearch-hdrcczkaghxcyydrwvyeozvdzpzj/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
 		0E9CF5E91EC6D9EE00DAA42B /* Pods_MockServerResearch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_MockServerResearch.framework; path = "../../../../Library/Developer/Xcode/DerivedData/MockServerResearch-hdrcczkaghxcyydrwvyeozvdzpzj/Build/Products/Debug-iphonesimulator/Pods_MockServerResearch.framework"; sourceTree = "<group>"; };
+		0E9CF5EC1EC709D000DAA42B /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		3564B442B9A91785A2661F04 /* Pods-MockServerResearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockServerResearch.release.xcconfig"; path = "Pods/Target Support Files/Pods-MockServerResearch/Pods-MockServerResearch.release.xcconfig"; sourceTree = "<group>"; };
 		D033EE3B9DD6FA93EFAF270D /* Pods-MockServerResearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockServerResearch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MockServerResearch/Pods-MockServerResearch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				0E5910D11EBF3804004CF9C5 /* AppDelegate.swift */,
+				0E9CF5EC1EC709D000DAA42B /* ViewModel.swift */,
 				0E5910D31EBF3804004CF9C5 /* ViewController.swift */,
 				0E5910D51EBF3804004CF9C5 /* Main.storyboard */,
 				0E5910DB1EBF3804004CF9C5 /* Assets.xcassets */,
@@ -234,6 +237,7 @@
 			files = (
 				0E5910DA1EBF3804004CF9C5 /* MockServerResearch.xcdatamodeld in Sources */,
 				0E5910D41EBF3804004CF9C5 /* ViewController.swift in Sources */,
+				0E9CF5ED1EC709D000DAA42B /* ViewModel.swift in Sources */,
 				0E5910D21EBF3804004CF9C5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
