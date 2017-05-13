@@ -13,19 +13,17 @@
 		0E5910DA1EBF3804004CF9C5 /* MockServerResearch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0E5910D81EBF3804004CF9C5 /* MockServerResearch.xcdatamodeld */; };
 		0E5910DC1EBF3804004CF9C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E5910DB1EBF3804004CF9C5 /* Assets.xcassets */; };
 		0E5910DF1EBF3804004CF9C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E5910DD1EBF3804004CF9C5 /* LaunchScreen.storyboard */; };
-		0EE58CAE1EBF4E3C0065BE1C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE58CA01EBF4BA60065BE1C /* Alamofire.framework */; };
-		0EE58CAF1EBF4E3C0065BE1C /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE58CA01EBF4BA60065BE1C /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6498E2B166A2E165BBC1F22F /* Pods_MockServerResearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE47343608A56A18217A752A /* Pods_MockServerResearch.framework */; };
+		0E9CF5EA1EC6D9EE00DAA42B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E9CF5E81EC6D9EE00DAA42B /* Alamofire.framework */; };
+		0E9CF5EB1EC6D9EE00DAA42B /* Pods_MockServerResearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E9CF5E91EC6D9EE00DAA42B /* Pods_MockServerResearch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		0EE58CAA1EBF4C3B0065BE1C /* Embed Frameworks */ = {
+		0E9CF5E71EC6D98900DAA42B /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				0EE58CAF1EBF4E3C0065BE1C /* Alamofire.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -41,10 +39,10 @@
 		0E5910DB1EBF3804004CF9C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E5910DE1EBF3804004CF9C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E5910E01EBF3804004CF9C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0EE58CA01EBF4BA60065BE1C /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/MockServerResearch-fpfflhkteylvcffqfgoaqysufwqa/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		0E9CF5E81EC6D9EE00DAA42B /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../../Library/Developer/Xcode/DerivedData/MockServerResearch-hdrcczkaghxcyydrwvyeozvdzpzj/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		0E9CF5E91EC6D9EE00DAA42B /* Pods_MockServerResearch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_MockServerResearch.framework; path = "../../../../Library/Developer/Xcode/DerivedData/MockServerResearch-hdrcczkaghxcyydrwvyeozvdzpzj/Build/Products/Debug-iphonesimulator/Pods_MockServerResearch.framework"; sourceTree = "<group>"; };
 		3564B442B9A91785A2661F04 /* Pods-MockServerResearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockServerResearch.release.xcconfig"; path = "Pods/Target Support Files/Pods-MockServerResearch/Pods-MockServerResearch.release.xcconfig"; sourceTree = "<group>"; };
 		D033EE3B9DD6FA93EFAF270D /* Pods-MockServerResearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockServerResearch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MockServerResearch/Pods-MockServerResearch.debug.xcconfig"; sourceTree = "<group>"; };
-		DE47343608A56A18217A752A /* Pods_MockServerResearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MockServerResearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +50,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6498E2B166A2E165BBC1F22F /* Pods_MockServerResearch.framework in Frameworks */,
-				0EE58CAE1EBF4E3C0065BE1C /* Alamofire.framework in Frameworks */,
+				0E9CF5EA1EC6D9EE00DAA42B /* Alamofire.framework in Frameworks */,
+				0E9CF5EB1EC6D9EE00DAA42B /* Pods_MockServerResearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,8 +102,8 @@
 		B642BE0FC1C709EC77EEAE32 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0EE58CA01EBF4BA60065BE1C /* Alamofire.framework */,
-				DE47343608A56A18217A752A /* Pods_MockServerResearch.framework */,
+				0E9CF5E81EC6D9EE00DAA42B /* Alamofire.framework */,
+				0E9CF5E91EC6D9EE00DAA42B /* Pods_MockServerResearch.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -123,7 +121,7 @@
 				0E5910CC1EBF3804004CF9C5 /* Resources */,
 				2BDA71F66A397D40323F9653 /* [CP] Embed Pods Frameworks */,
 				42114FAEB127A7D1375A7003 /* [CP] Copy Pods Resources */,
-				0EE58CAA1EBF4C3B0065BE1C /* Embed Frameworks */,
+				0E9CF5E71EC6D98900DAA42B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
